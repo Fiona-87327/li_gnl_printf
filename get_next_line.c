@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "libft.h"
 
 static ssize_t	find_newline(const char *s)
 {
@@ -113,7 +113,6 @@ char	*get_next_line(int fd)
 	return (tmp);
 }
 
-#include <stdio.h>
 
 int	main(void)
 {
@@ -122,10 +121,10 @@ int	main(void)
 
 	fd = open("test.txt", O_RDONLY);
 	line = get_next_line(fd);
-	printf("Line: >%s<", line);
+	ft_printf("Line: >%s<", line);
 	free(line);
 	line = get_next_line(fd);
-	printf("Line: >%s<", line);
+	ft_printf("Line: >%s<", line);
 	free(line);
 	// line = get_next_line(fd);
 	// printf("Line: >%s<", line);

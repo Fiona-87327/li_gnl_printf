@@ -12,19 +12,14 @@
 
 #include "libft.h"
 
-int	ft_isalpha(int c);
-int	ft_isdigit(int c);
-
 int	ft_isalnum(int c)
 {
 	return (ft_isalpha(c) || ft_isdigit(c));
 }
 
-// #include <stdio.h>
 
-// int main(void)
-// {
-// 	char *text = "Company12";
-
-// 	printf("%d", ft_isalnum(*text));
-// }
+ int main(void)
+ {
+ 	char *text = "Company12"; 	
+	ft_printf("%d\n", ft_isalnum(*text));
+ }

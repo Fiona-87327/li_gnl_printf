@@ -38,25 +38,23 @@ int	ft_atoi(const char *nptr)
 	return (n);
 }
 
-// #include <stdio.h>
-
-// int	main(void)
-// {
-// 	char *s = "--123";
-// 	char *s1 = "-+123";
-// 	char *s2 = "+-123";
-// 	char *s3 = "++123";
-// 	char *s4 = "-123";
-// 	char *s5 = "+123";
-// 	char *s6 = "  \t\n123";
-// 	char *s7 = "42 ist die Antwort";
-// 	printf("%d\n", ft_atoi(s));
-// 	printf("%d\n", ft_atoi(s1));
-// 	printf("%d\n", ft_atoi(s2));
-// 	printf("%d\n", ft_atoi(s3));
-// 	printf("%d\n", ft_atoi(s4));
-// 	printf("%d\n", ft_atoi(s5));
-// 	printf("%d\n", ft_atoi(s6));
-// 	printf("%d\n", ft_atoi(s7));
-// 	return (0);
-// }
+ int	main(void)
+ {
+ 	char *s = "--123";
+ 	char *s1 = "-+123";
+ 	char *s2 = "+-123";
+ 	char *s3 = "++123";
+ 	char *s4 = "-123";
+ 	char *s5 = "+123";
+ 	char *s6 = "  \t\n123";
+ 	char *s7 = "42 ist die Antwort";
+ 	ft_printf("%d\n", ft_atoi(s));
+ 	ft_printf("%d\n", ft_atoi(s1));
+ 	ft_printf("%d\n", ft_atoi(s2));
+ 	ft_printf("%d\n", ft_atoi(s3));
+ 	ft_printf("%d\n", ft_atoi(s4));
+ 	ft_printf("%d\n", ft_atoi(s5));
+ 	ft_printf("%d\n", ft_atoi(s6));
+ 	ft_printf("%d\n", ft_atoi(s7));
+	return (0);
+ }
